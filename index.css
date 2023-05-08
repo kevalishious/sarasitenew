@@ -1,0 +1,153 @@
+/* * {
+    outline: 1px solid red;
+  } */
+
+@keyframes wiggle {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes roty {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    50% {
+      transform: rotateZ(2deg);
+    }
+    100% {
+      transform: rotateZ(0deg);
+    }
+  }
+
+
+body {
+    background-color: #F4F1DE;
+    height:100%;
+}
+
+#mainlogo{
+    max-width: 90%;
+    height :auto;
+    animation: roty 1s ease-in-out infinite;
+}
+
+#mainlogocont{
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    left: calc(50% - 241px/2 - 0.5px);
+    top: calc(50% - 241px/2 - 45.5px);    
+}
+
+#doodle12cont{
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    left: -106px;
+    bottom: 535px;
+}
+
+#doodle12{
+    max-width: 100%;
+    height :auto;
+    animation: wiggle 2s ease-in-out infinite;
+    animation-delay: 0.1s;
+}
+
+#doodle13cont{
+    position: absolute;
+    width: 354px;
+    height: 354px;
+    right: -68px;
+    bottom: 603px;
+}
+
+#doodle13{
+    max-width: 100%;
+    height :auto;
+    animation: wiggle 2s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+
+#doodle14cont{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 207px;
+    top: -14px;
+}
+
+#doodle14{
+    max-width: 100%;
+    height :auto;
+    animation: wiggle 2s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+#doodle15cont{
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    right: -75px;
+    bottom: 88px;    
+}
+
+#doodle15{
+    max-width: 100%;
+    height :auto;
+    animation: wiggle 2s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+
+#doodle16cont{
+    position: absolute;
+    width: 382px;
+    height: 382px;
+    left: -67px;
+    bottom: -174px;
+}
+
+#doodle16{
+    max-width: 100%;
+    height :auto;
+    animation: wiggle 2s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+#doodle17cont{
+    position: absolute;
+    width: 153px;
+    height: 153px;
+    right: -86px;
+    top: 201px;
+}
+
+#doodle17{
+    max-width: 100%;
+    height :auto;
+    animation: wiggle 2s ease-in-out infinite;
+    animation-delay: 0.6s;
+}
+
+#doodle18cont{
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    left: -132px;
+    bottom: 150px;
+    transform: rotate(-26.22deg); 
+}
+
+#doodle18{
+    max-width: 100%;
+    height :auto;
+    animation: wiggle 2s ease-in-out infinite;
+    animation-delay: 0.7s;
+}
